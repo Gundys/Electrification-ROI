@@ -205,9 +205,9 @@ footer .copy{font-weight:300;font-size:.8em;opacity:.8;text-transform:uppercase;
 <h2>The Core Message</h2>
 <p style="font-size:1.05em;">Electric eliminates costs, complexity, safety risks, and downtime &mdash; while delivering the performance contractors expect.</p>
 <div class="slider-box">
-<label>Compressor Size: <span id="heroCompVal" style="color:var(--graco-green);">375 CFM</span> &nbsp;&middot;&nbsp; <span id="heroCompGal" style="color:var(--graco-green);">~48 gal/day</span></label>
-<input type="range" id="heroCompSlider" min="0" max="3" step="1" value="0">
-<div class="range-labels"><span id="hc0">375</span><span id="hc1">750</span><span id="hc2">1000</span><span id="hc3">1170</span></div>
+<label>Compressor Size: <span id="heroCompVal" style="color:var(--graco-green);">375 CFM</span> &nbsp;&middot;&nbsp; <span id="heroCompGal" style="color:var(--graco-green);">~38 gal/day</span></label>
+<input type="range" id="heroCompSlider" min="0" max="5" step="1" value="1">
+<div class="range-labels"><span id="hc0">185</span><span id="hc1">375</span><span id="hc2">750</span><span id="hc3">900</span><span id="hc4">1100</span><span id="hc5">1600</span></div>
 </div>
 <div class="slider-box">
 <label>Diesel Fuel Price: <span id="heroFuelVal" style="color:var(--graco-green);">$4.50 / gallon</span></label>
@@ -221,33 +221,33 @@ footer .copy{font-weight:300;font-size:.8em;opacity:.8;text-transform:uppercase;
 <div class="substat">Daily Fuel Cost</div>
 <div class="subval" id="costEMax">$54</div></div>
 <div class="stat-card"><div class="ca"></div>
-<div class="num" id="heroCompGalNum">48</div>
+<div class="num" id="heroCompGalNum">38</div>
 <div class="lbl"><span id="heroCompVolUnit">Gallons / Day</span><br>King PC + <span id="heroCompLabel">375 CFM</span></div>
 <div class="substat">Daily Fuel Cost</div>
-<div class="subval" id="costKingPC">$216</div></div>
+<div class="subval" id="costKingPC">$173</div></div>
 <div class="stat-card"><div class="ca"></div>
-<div class="num" id="dailySavedNum">$162</div>
+<div class="num" id="dailySavedNum">$119</div>
 <div class="lbl">Daily Fuel Savings<br>Electric vs. Compressor</div>
 <div class="substat">Annual (20 days/mo &times; 12)</div>
-<div class="subval" id="annualSavedNum">$38,880</div></div>
+<div class="subval" id="annualSavedNum">$28,512</div></div>
 <div class="stat-card"><div class="ca"></div>
 <div class="num">3X</div>
 <div class="lbl">Service Interval<br>Generator vs Compressor</div>
 <div class="substat">Major Service Hours</div>
 <div class="subval">10K vs 30K</div></div>
 </div>
-<div class="quote" id="heroQuote">&ldquo;Same coating work. 12 gallons vs. 48 gallons per day.&rdquo;</div>
+<div class="quote" id="heroQuote">&ldquo;Same coating work. 12 gallons vs. estimated 38 gallons per day at 80% loaded operation.&rdquo;</div>
 </section>
 </div>
 <div class="tab-panel" id="calc">
 <section>
 <h2>ROI Calculator</h2>
-<p>Estimate fuel savings by replacing a compressor-powered King PC with a King E-Max XT.</p>
+<p>Estimate fuel savings by replacing a compressor-powered King PC with a King E-Max XT. This calculator uses estimated average 80% loaded fuel figures for diesel air compressors.</p>
 <div class="calc-wrap">
 <div class="slider-box bg-clear">
-<label>Compressor Size: <span id="rCompVal" style="color:var(--graco-green);">375 CFM</span> &nbsp;&middot;&nbsp; <span id="rCompGal" style="color:var(--graco-green);">~48 gal/day</span></label>
-<input type="range" id="rCompSlider" min="0" max="3" step="1" value="0">
-<div class="range-labels"><span id="rc0">375</span><span id="rc1">750</span><span id="rc2">1000</span><span id="rc3">1170</span></div>
+<label>Compressor Size: <span id="rCompVal" style="color:var(--graco-green);">375 CFM</span> &nbsp;&middot;&nbsp; <span id="rCompGal" style="color:var(--graco-green);">~38 gal/day</span></label>
+<input type="range" id="rCompSlider" min="0" max="5" step="1" value="1">
+<div class="range-labels"><span id="rc0">185</span><span id="rc1">375</span><span id="rc2">750</span><span id="rc3">900</span><span id="rc4">1100</span><span id="rc5">1600</span></div>
 </div>
 <div class="slider-box bg-clear">
 <label>Diesel Fuel Price: <span id="rFuelVal" style="color:var(--graco-green);">$4.50 / gallon</span></label>
@@ -269,7 +269,7 @@ footer .copy{font-weight:300;font-size:.8em;opacity:.8;text-transform:uppercase;
 <div class="annualNum" id="rAnnual">$0</div>
 <div class="threeyr">3-Year Estimated Savings: <strong id="rThreeyr">$0</strong></div>
 </div>
-<div class="disclaimer">Estimates based on typical compressor fuel consumption and a 25 kW diesel generator. Actual savings vary by job site, fuel price, and utilization.</div>
+<div class="disclaimer">This calculator uses estimated average 80% loaded fuel figures for diesel air compressors. Estimates assume an 8-hour coating day and a 25 kW diesel generator for the King E-Max XT. Actual savings vary by job site, fuel price, equipment condition, load profile, and utilization.</div>
 </div>
 </div>
 </section>
@@ -277,7 +277,7 @@ footer .copy{font-weight:300;font-size:.8em;opacity:.8;text-transform:uppercase;
 <div class="tab-panel" id="fuel">
 <section>
 <h2>Remote Jobsite Fuel Comparison</h2>
-<p>The biggest fuel consumer on most coating jobsites is not the sprayer &mdash; it's the compressor.</p>
+<p>The biggest fuel consumer on most coating jobsites is not the sprayer &mdash; it's the compressor. Compressor fuel figures below use estimated average 80% loaded operation.</p>
 <div class="slider-box">
 <label>Diesel Fuel Price: <span id="fuelTabFuelVal" style="color:var(--graco-green);">$4.50 / gallon</span></label>
 <input type="range" id="fuelTabSlider" min="2.50" max="12.00" step="0.05" value="4.50">
@@ -287,12 +287,15 @@ footer .copy{font-weight:300;font-size:.8em;opacity:.8;text-transform:uppercase;
 <table>
 <tr><th>System</th><th>Fuel / 8-hr Day</th><th>Daily Fuel Cost</th><th>Extra Daily Cost vs. E-Max XT</th></tr>
 <tr class="row-emax"><td><strong>King E-Max XT + 25 kW Generator</strong></td><td id="volEMax">~12 gal</td><td class="cost-cell" id="fcEMax">$54</td><td><strong style="color:var(--graco-green);">Baseline</strong></td></tr>
-<tr><td>King PC + <span id="cn375">375 CFM</span> Compressor</td><td id="vt375">~48 gal</td><td class="cost-cell" id="fc375">$216</td><td class="extra-cell" id="sv375">+$162/day more</td></tr>
-<tr><td>King PC + <span id="cn750">750 CFM</span> Compressor</td><td id="vt750">~104 gal</td><td class="cost-cell" id="fc750">$468</td><td class="extra-cell" id="sv750">+$414/day more</td></tr>
-<tr><td>King PC + <span id="cn1000">1000 CFM</span> Compressor</td><td id="vt1000">~118 gal</td><td class="cost-cell" id="fc1000">$531</td><td class="extra-cell" id="sv1000">+$477/day more</td></tr>
-<tr><td>King PC + <span id="cn1170">1170 CFM</span> Compressor</td><td id="vt1170">~168 gal</td><td class="cost-cell" id="fc1170">$756</td><td class="extra-cell" id="sv1170">+$702/day more</td></tr>
+<tr><td>King PC + <span id="cn185">185 CFM</span> Compressor</td><td id="vt185">~18 gal</td><td class="cost-cell" id="fc185">$79</td><td class="extra-cell" id="sv185">+$25/day more</td></tr>
+<tr><td>King PC + <span id="cn375">375 CFM</span> Compressor</td><td id="vt375">~38 gal</td><td class="cost-cell" id="fc375">$173</td><td class="extra-cell" id="sv375">+$119/day more</td></tr>
+<tr><td>King PC + <span id="cn750">750 CFM</span> Compressor</td><td id="vt750">~74 gal</td><td class="cost-cell" id="fc750">$331</td><td class="extra-cell" id="sv750">+$277/day more</td></tr>
+<tr><td>King PC + <span id="cn900">900 CFM</span> Compressor</td><td id="vt900">~80 gal</td><td class="cost-cell" id="fc900">$360</td><td class="extra-cell" id="sv900">+$306/day more</td></tr>
+<tr><td>King PC + <span id="cn1100">1100 CFM</span> Compressor</td><td id="vt1100">~86 gal</td><td class="cost-cell" id="fc1100">$389</td><td class="extra-cell" id="sv1100">+$335/day more</td></tr>
+<tr><td>King PC + <span id="cn1600">1600 CFM</span> Compressor</td><td id="vt1600">~154 gal</td><td class="cost-cell" id="fc1600">$691</td><td class="extra-cell" id="sv1600">+$637/day more</td></tr>
 </table>
 </div>
+<div class="callout"><strong>Assumption:</strong> Compressor fuel burn is modeled using estimated average 80% loaded fuel figures from the diesel air compressor fuel burn reference, converted to an 8-hour coating day.</div>
 <div class="quote">&ldquo;The bigger the compressor, the bigger the electrification opportunity.&rdquo;</div>
 </section>
 </div>
@@ -370,7 +373,7 @@ Based on <strong>33.5 kW reduction</strong> (40.7 kW &mdash; 7.2 kW) over <stron
 <h2>Field Cheat Sheet</h2>
 <ul class="cheat-list">
 <li><span class="tag-chip">Lead With</span> No compressor. One power source. Lower operating cost.</li>
-<li><span class="tag-chip">Remote</span> Same coating work. 12 gal vs. 48&ndash;168 gal per day.</li>
+<li><span class="tag-chip">Remote</span> Same coating work. 12 gal vs. estimated 18&ndash;154 gal per 8-hr day using average 80% loaded compressor fuel figures.</li>
 <li><span class="tag-chip">Shop</span> 40.7 kW vs. 7.2 kW &mdash; about 82% less power.</li>
 <li><span class="tag-chip">Service</span> Compressor: ~10,000 hrs | Generator: ~30,000 hrs.</li>
 <li><span class="tag-chip">Power Range</span> 6.5 kW small units up to 40 kW fully loaded plural systems.</li>
@@ -414,7 +417,7 @@ Based on <strong>33.5 kW reduction</strong> (40.7 kW &mdash; 7.2 kW) over <stron
   var CUR='USD';
   var LPG=3.78541;
   var CFM_TO_M3=0.0283168;
-  var CFMS=[375,750,1000,1170];
+  var CFMS=[185,375,750,900,1100,1600];
   // Approximate FX rates relative to 1 USD (editable). Top 10 most-traded world currencies.
   var CURRENCIES={
     USD:{sym:'$',    rate:1},
@@ -464,7 +467,7 @@ Based on <strong>33.5 kW reduction</strong> (40.7 kW &mdash; 7.2 kW) over <stron
 ["How does going electric save money?","Eliminate the compressor, reduce fuel, no rental, fewer trucks, less labor. Up to 80% more efficient. Often run the entire jobsite from a single generator."],
 ["I already own a compressor - doesn't that make it free to run?","Owning it doesn't make it free. Fuel, maintenance, repairs, downtime, transport, and eventual replacement still apply. Compressors need major service around 10,000 hrs vs. ~30,000 hrs for generators."],
 ["My air system already works fine - why change?","It's likely costing more than necessary - fuel, maintenance, transport, rental, air dryers, filtration, hoses, fittings, and inspections. Aging compressors also consume more energy for the same work."],
-["How much fuel can electric save on remote jobsites?","A 25 kW generator powering a King E-Max XT may burn ~12 gal/day, while a compressor-powered King PC may consume ~48-168 gal/day depending on compressor size. Same coating work - the generator is dramatically more efficient than running a large compressor for the sprayer."],
+["How much fuel can electric save on remote jobsites?","A 25 kW generator powering a King E-Max XT may burn ~12 gal/day, while a compressor-powered King PC may consume an estimated ~18-154 gal per 8-hour day depending on compressor size, using average 80% loaded compressor fuel figures. Same coating work - the generator is dramatically more efficient than running a large compressor for the sprayer."],
 ["How does maintenance compare - compressor vs generator?","Compressors typically need major service around 10,000 hours. Generators can run up to 30,000 hours - about 3x longer."],
 ["My compressor is reliable enough - why switch?","Compressors are mechanical systems that wear over time, and a compressor failure can halt production. Electric reduces dependency on compressed air and the downtime risk that comes with it."],
 ["What happens as compressors age?","They lose efficiency through wear, leaks, and moisture issues - consuming more energy for the same work and increasing downtime risk."],
@@ -498,7 +501,7 @@ Based on <strong>33.5 kW reduction</strong> (40.7 kW &mdash; 7.2 kW) over <stron
   }
   buildList(FAQS,'faqs','faq-item');
 
-  var COMP_OPTIONS=[{cfm:375,gal:48},{cfm:750,gal:104},{cfm:1000,gal:118},{cfm:1170,gal:168}];
+  var COMP_OPTIONS=[{cfm:185,gal:17.6},{cfm:375,gal:38.4},{cfm:750,gal:73.6},{cfm:900,gal:80.0},{cfm:1100,gal:86.4},{cfm:1600,gal:153.6}];
 
   function updateHero(){
     var opt=COMP_OPTIONS[parseInt(document.getElementById('heroCompSlider').value,10)];
@@ -559,7 +562,7 @@ Based on <strong>33.5 kW reduction</strong> (40.7 kW &mdash; 7.2 kW) over <stron
     var e=12*f;
     document.getElementById('fcEMax').textContent=money(e);
     document.getElementById('volEMax').textContent='~'+volStr(12);
-    var rows=[[375,48,'fc375','sv375','cn375','vt375'],[750,104,'fc750','sv750','cn750','vt750'],[1000,118,'fc1000','sv1000','cn1000','vt1000'],[1170,168,'fc1170','sv1170','cn1170','vt1170']];
+    var rows=[[185,17.6,'fc185','sv185','cn185','vt185'],[375,38.4,'fc375','sv375','cn375','vt375'],[750,73.6,'fc750','sv750','cn750','vt750'],[900,80.0,'fc900','sv900','cn900','vt900'],[1100,86.4,'fc1100','sv1100','cn1100','vt1100'],[1600,153.6,'fc1600','sv1600','cn1600','vt1600']];
     for(var i=0;i<rows.length;i++){
       var cost=rows[i][1]*f;
       document.getElementById(rows[i][2]).textContent=money(cost);
